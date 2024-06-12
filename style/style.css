@@ -2,6 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url("https://media.discordapp.net/attachments/1250207054711492813/1250251478472593429/Imagem_do_WhatsApp_de_2024-06-11_as_21.52.21_67bb0c16.jpg?ex=666a42ed&is=6668f16d&hm=07d9d82b689fbe775a366d9d63b7b13cf04734b66633be1229c5237754a9a159&=&format=webp&width=500&height=500");
 }
 
 ul{
@@ -11,9 +16,96 @@ ul{
     height: 50px;
     list-style: none;
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
 }
 
 li{
     color: white;
+    margin-left: 2rem;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-informacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    transition: 1s;
+}
+
+.card-informacoes:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.icon-hero{
+    width: 300px;
+    height: 320px;
+    border-radius: 8px;
+}
+
+.texto{
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+
+p{
+    color:white
+}
+
+summary{
+    color: white;
+}
+
+summary:hover{
+    cursor: pointer;
+}
+
+#titulo{
+    text-align: center;
+    color: white;
+}
+
+button{
+    background-color: aqua;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: gray;
+    color: black;
+}
+
+.container-herois{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.herois-lista{
+    background-color: transparent;
 }
