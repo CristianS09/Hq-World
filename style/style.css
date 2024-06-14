@@ -22,6 +22,7 @@ ul{
 li{
     color: white;
     margin-left: 2rem;
+    margin-left: 10px;
 }
 
 main{
@@ -70,9 +71,8 @@ main{
     text-align: center;
 }
 
-
 p{
-    color:white
+    color:white;
 }
 
 summary{
@@ -96,7 +96,8 @@ a{
     padding: 10px;
     text-decoration: none;
     border-radius: 8px;
-    background-color: gray;
+    margin-left: 2rem;
+    background-color: rgb(164, 164, 164);
     color: black;
 }
 
@@ -115,7 +116,21 @@ a:hover{
 }
 
 .herois-lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
+}
+
+.container-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-github{
+    margin: 15px;
 }
 
 @media only screen and (max-width: 600px) {
